@@ -14,7 +14,7 @@ namespace Banco {
 
             if(sqlConn == null)
             {
-                Console.WriteLine("Erro conexão com o banco");
+                Console.WriteLine("Erro conexão com o banco.");
                 return;
             }
 
