@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexaoDB.cs" />
+    <Compile Include="ConsultarContaDB.cs" />
     <Compile Include="CRUD-DB.cs" />
     <Compile Include="CRUD.cs" />
     <Compile Include="Models\Conta.cs" />

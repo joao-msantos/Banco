@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using static Banco.ConexaoDB;
-using static Banco.CRUD;
+
 
 namespace Banco {
     public class Program {
@@ -17,8 +17,9 @@ namespace Banco {
                 Console.WriteLine("Erro conexão com o banco.");
                 return;
             }
-
-            ExibirConta(sqlConn);
+            ExibirContas(sqlConn);
+            ExcluirConta(sqlConn);
+            ExibirContas(sqlConn);
             FecharConexao(sqlConn);
         }
     }
